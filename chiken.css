@@ -1,0 +1,200 @@
+*{
+  padding:0;
+  margin:0;
+ box-sizing: border-box;
+}
+
+.header{
+  display:flex;
+  background-color: rgb(5, 5, 5);
+  
+}
+.main-logo{
+    display:flex;
+    width:200px;
+}
+.main-logo h6{
+  margin-top:40px;
+  font-size:20px;
+  margin-right: 50px;
+  font-weight: 900;
+  font-style:bold;
+  color: white;
+}
+
+.logo{
+  width:100px;
+  height:100px;
+  clip-Path:circle;
+}
+
+.nav-container ul{
+  display:flex;
+  margin-left:280px;
+  color:rgb(54, 248, 5);
+  margin-top:40px;
+}
+.nav-container ul li{
+  list-style: none;
+}
+.nav-container ul a{
+  color: rgb(0, 0, 0);
+ font-weight:bold;
+  text-decoration: none;
+  font-size:1.2rem;
+  margin: 8px;
+  float: end;
+ color:white;
+}
+.nav-container ul a:hover{
+  color:rgb(54, 248, 5);
+}
+.container-1{
+  height:650px;
+}
+.leg{
+width: 100%;
+height:650px
+}
+.tagline{
+  margin-left:150px;
+  width:400px;
+  transform: translateY(-580px);
+}
+.tagline h1{
+  color:rgb(54, 248, 5);
+  font-size: 70px;
+}
+.tagline h2{
+  font-size:35px;
+  color:rgb(17, 237, 233);
+ font-style: italic;
+ font-weight: lighter;
+ padding-left: 10px;
+}
+#btn{
+  transform: translatex(390px);
+  margin-top: 160px;
+  border:2px solid rgb(54, 248, 5);
+  border-radius: 3px;
+  width:120px;
+  height: 40px;
+background-color: black;
+  color:rgb(249, 251, 249);
+  font-size: 15px;
+  font-weight: bold;
+  transition: all ease 2s;
+}
+#btn:hover{
+  background-color: rgb(247, 151, 7);
+  border:none;
+}
+.img-slider{
+  display:flex;
+  height:230px;
+  overflow-x: auto;
+}
+.img-slider::-webkit-scrollbar{
+  display:block;
+}
+.img-slider img{
+  width: 160px;
+  height:160px;
+clip-path: circle(50px);
+}
+.sales{
+  height:600px;
+}
+.sales h1{
+  font-size:35px;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(54, 248, 5); 
+  padding-bottom: 25px;
+ 
+}
+.sales img{
+  width:100%;
+  height:100%;
+  padding:0px 50px;
+}
+.tag{
+  margin-top:100px;
+  margin-bottom: 0%;
+}
+.tag h1{
+  text-align:center;
+  color:rgb(54, 248, 5);
+}
+.recipe-container{
+  display: flex;
+  margin-top:60px;
+  width:100%;
+  height:280px;
+  /* border:1px solid #000; */
+}
+
+.recipe-container .product-img{
+  height:150px;
+  width:170px;
+  margin:0px 10px;
+}
+.price{
+  margin-left:30px;
+  font-size:18px;
+}
+.price p{
+  font-weight:900;
+  margin-bottom: 10px;
+  padding:0px 3px;
+}
+.price h6{
+  margin-left:10px;
+  font-size: 15px;
+  color:rgb(210, 208, 203);
+  padding-bottom: 10px;
+}
+.product-btn{
+  width:150px;
+  height:30px;
+  font-size:13px;
+  font-weight:500;
+  text-transform: uppercase;
+  background-color:lightgreen;
+  color:rgb(14, 13, 13);
+  border:none;
+  border-radius: 15px;
+}
+.main-footer{
+  display:flex;
+  width:100%;
+  height:300px;
+  margin-top:30px;
+  border: 1px solid black;
+}
+.footer{
+  width:100%;
+  height:70px;
+background-color: rgb(63, 62, 62);
+}
+.footer p{
+  text-align: center;
+ margin-top:15px;
+  font-size:15px;
+  font-weight:600;
+  color:#fff;
+  text-transform: uppercase;
+  padding-top:45px;
+}
+/* .footer-left{
+  margin:20px;
+  width:50%;
+  border:1px solid red;
+}
+.footer-right{
+  margin:20px;
+  width:50%;
+    border: 1px solid rgb(75, 207, 251);
+
+} */
